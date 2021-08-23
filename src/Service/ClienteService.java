@@ -19,7 +19,7 @@ public class ClienteService implements service.IService<Cliente> {
         insert.setDouble(4, cliente.getAltura());
         insert.setDouble(5, cliente.getPeso());
         insert.setDate(6, null);
-        insert.setInt(7, cliente.getCidadeId());
+        insert.setLong(7, cliente.getCidadeId());
         insert.executeUpdate();
         conn.close();
 

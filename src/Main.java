@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class Main {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
 
-        Cliente cliente = new Cliente(10, "BrunoK", "04696900975", 1.47, 96.6, null, 1);
+        Cliente cliente = new Cliente(10, "BrunoK", "04696900975", 1.47, 96.6, null, 100000L);
 
         ClienteService service = new ClienteService();
 

@@ -10,12 +10,12 @@ public class Cliente {
     private Double altura;
     private Double peso;
     private Date dataNascimento;
-    private Integer cidadeId;
+    private Long cidadeId;
 
     public Cliente() {
     }
 
-    public Cliente(Integer id, String nome, String documento, Double altura, Double peso, Date dataNascimento, Integer cidadeId) {
+    public Cliente(Integer id, String nome, String documento, Double altura, Double peso, Date dataNascimento, Long cidadeId) {
         this.id = id;
         this.nome = nome;
         this.documento = documento;
@@ -73,11 +73,11 @@ public class Cliente {
         this.dataNascimento = dataNascimento;
     }
 
-    public Integer getCidadeId() {
+    public Long getCidadeId() {
         return cidadeId;
     }
 
-    public void setCidadeId(Integer cidadeId) {
+    public void setCidadeId(Long cidadeId) {
         this.cidadeId = cidadeId;
     }
 }
